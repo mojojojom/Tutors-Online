@@ -1,0 +1,54 @@
+<?php
+
+// Connect to the database
+$conn = mysqli_connect("hostname", "username", "password", "database_name");
+
+// Check the connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+// Get the events data from the database
+$result = mysqli_query($conn, "SELECT * FROM events");
+
+// Convert the data into JSON format
+$events = array();
+while ($row = mysqli_fetch_assoc($result)) {
+    $event = array();
+    $event['id'] = $row['id'];
+    $event['title'] = $row['title'];
+    $event['start'] = $row['start_date'];
+    $event['end'] = $row['end_date'];
+    array_push($events, $event);
+}
+$events_json = json_encode($events);
+
+?>
+
+<!-- Include the FullCalendar library -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.4.0/main.min.css" integrity="sha384-dvH/1sgxMMtxiEsGOgzYXN76vRlZl13/QNnKV0zLwMfRVtLs2Lkh0V3E9TfTsw" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@4.4.0/main.min.css" integrity="sha384-PItc2AaL3qNTb2TZT67hjE9nZoeV7ZoA/sLFnA/x1yjx7sBJQ/A1/EjX9B/OcTmM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.4.0/main.min.js" integrity="sha384-H7vzdXgKj1L3fWoc5+69vzKPxoR5c5JW6uY7aUij1aJLKVUgW2u8v+fIxJyD7Uh" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@4.4.0/main.min.js" integrity="sha384-hHgJbqcw1rz2rv01z/AKBH8jNM/qg/QJ+vzvWNY/8MV0jJxN/7VUJW+uO7WeU++X" crossorigin="anonymous"></script>
+
+<!-- Display the calendar -->
+<div id="calendar"></div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.
+Calendar(calendarEl, {
+plugins: [ 'dayGrid' ],
+events: <?php echo $events_json; ?>,
+eventClick: function(info) {
+// do something when an event is clicked
+}
+});
+
+scss
+Copy code
+calendar.render();
+});
+</script>
