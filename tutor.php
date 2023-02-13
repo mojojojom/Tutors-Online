@@ -24,7 +24,7 @@
                                                     <div class="card-body p-2">
                                                         <div class="t_applicants-wrap">
                                                             <div class="t_applicants-img-wrap">
-                                                                <img src="/images/about-sec.jpg" alt="">
+                                                                <img src="../images/about-sec.jpg" alt="">
                                                             </div>
                                                             <div class="t_applicants-info-wrap">
                                                                 <p class="t_applicants-name">Sample Name</p>
@@ -42,7 +42,7 @@
                                                     <div class="card-body p-2">
                                                         <div class="t_applicants-wrap">
                                                             <div class="t_applicants-img-wrap">
-                                                                <img src="/images/about-sec.jpg" alt="">
+                                                                <img src="../images/about-sec.jpg" alt="">
                                                             </div>
                                                             <div class="t_applicants-info-wrap">
                                                                 <p class="t_applicants-name">Sample Name</p>
@@ -60,7 +60,7 @@
                                                     <div class="card-body p-2">
                                                         <div class="t_applicants-wrap">
                                                             <div class="t_applicants-img-wrap">
-                                                                <img src="/images/about-sec.jpg" alt="">
+                                                                <img src="../images/about-sec.jpg" alt="">
                                                             </div>
                                                             <div class="t_applicants-info-wrap">
                                                                 <p class="t_applicants-name">Sample Name</p>
@@ -78,7 +78,7 @@
                                                     <div class="card-body p-2">
                                                         <div class="t_applicants-wrap">
                                                             <div class="t_applicants-img-wrap">
-                                                                <img src="/images/about-sec.jpg" alt="">
+                                                                <img src="../images/about-sec.jpg" alt="">
                                                             </div>
                                                             <div class="t_applicants-info-wrap">
                                                                 <p class="t_applicants-name">Sample Name</p>
@@ -96,7 +96,7 @@
                                                     <div class="card-body p-2">
                                                         <div class="t_applicants-wrap">
                                                             <div class="t_applicants-img-wrap">
-                                                                <img src="/images/about-sec.jpg" alt="">
+                                                                <img src="../images/about-sec.jpg" alt="">
                                                             </div>
                                                             <div class="t_applicants-info-wrap">
                                                                 <p class="t_applicants-name">Sample Name</p>
@@ -114,7 +114,7 @@
                                                     <div class="card-body p-2">
                                                         <div class="t_applicants-wrap">
                                                             <div class="t_applicants-img-wrap">
-                                                                <img src="/images/about-sec.jpg" alt="">
+                                                                <img src="../images/about-sec.jpg" alt="">
                                                             </div>
                                                             <div class="t_applicants-info-wrap">
                                                                 <p class="t_applicants-name">Sample Name</p>
@@ -269,7 +269,7 @@
                                             <div class="t_chat-wrap border">
                                                 <a href="#">
                                                     <div class="t_chat-img-wrap">
-                                                        <img src="images/about-sec.jpg" alt="">
+                                                        <img src="../images/about-sec.jpg" alt="">
                                                     </div>
                                                     <div class="t_chat-user-wrap">
                                                         <p class="t_chat-user-name">Sample Name</p>
@@ -280,7 +280,7 @@
                                             <div class="t_chat-wrap border">
                                                 <a href="#">
                                                     <div class="t_chat-img-wrap">
-                                                        <img src="images/about-sec.jpg" alt="">
+                                                        <img src="../images/about-sec.jpg" alt="">
                                                     </div>
                                                     <div class="t_chat-user-wrap">
                                                         <p class="t_chat-user-name">Sample Name</p>
@@ -291,7 +291,7 @@
                                             <div class="t_chat-wrap border">
                                                 <a href="#">
                                                     <div class="t_chat-img-wrap">
-                                                        <img src="images/about-sec.jpg" alt="">
+                                                        <img src="../images/about-sec.jpg" alt="">
                                                     </div>
                                                     <div class="t_chat-user-wrap">
                                                         <p class="t_chat-user-name">Sample Name</p>
@@ -302,7 +302,7 @@
                                             <div class="t_chat-wrap border">
                                                 <a href="#">
                                                     <div class="t_chat-img-wrap">
-                                                        <img src="images/about-sec.jpg" alt="">
+                                                        <img src="../images/about-sec.jpg" alt="">
                                                     </div>
                                                     <div class="t_chat-user-wrap">
                                                         <p class="t_chat-user-name">Sample Name</p>
@@ -313,7 +313,7 @@
                                             <div class="t_chat-wrap border">
                                                 <a href="#">
                                                     <div class="t_chat-img-wrap">
-                                                        <img src="images/about-sec.jpg" alt="">
+                                                        <img src="../images/about-sec.jpg" alt="">
                                                     </div>
                                                     <div class="t_chat-user-wrap">
                                                         <p class="t_chat-user-name">Sample Name</p>
